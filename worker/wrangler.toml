@@ -1,0 +1,3 @@
+name = "x20pro-up-kernel"       # 你的worker名字
+main = "index.js"           # 要部署的文件
+compatibility_date = "2026-04-29"
