@@ -1,9 +1,9 @@
 // ==================== 配置项 ====================
 const CONFIG = {
-  githubRepo: "ccmx200/kernel-deb",
+  githubRepo: "ccmx200/kernel-up",
   releaseTag: "v7.0",
   pageTitle: "小米 Raphael (K20 Pro) 定制内核镜像",
-  githubRepoUrl: "https://github.com/ccmx200/kernel-deb",
+  githubRepoUrl: "https://github.com/ccmx200/kernel-up",
   releaseCacheTTL: 86400,    // Release 信息缓存 1 天
   assetCacheTTL: 2592000,    // .deb 缓存 30 天
   scriptCacheTTL: 86400,     // 脚本缓存 1 天

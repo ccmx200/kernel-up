@@ -12,7 +12,7 @@ git add .
 git commit -m "builddeb: Add Qcom SM8150 DTBs to boot partition"
 
 # 下载内核配置文件
-wget -O arch/arm64/configs/raphael.config https://raw.githubusercontent.com/ccmx200/kernel-deb/refs/heads/main/uboot-raphael.config
+wget -O arch/arm64/configs/raphael.config https://raw.githubusercontent.com/ccmx200/kernel-up/refs/heads/main/uboot-raphael.config
 
 # 生成内核配置
 make -j$(nproc) ARCH=arm64 LLVM=-22 defconfig raphael.config
